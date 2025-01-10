@@ -66,6 +66,21 @@
             timeout-ms = <70>;
             require-prior-idle-ms = <100>;
         };
+
+        NO-Letter-AA {
+            bindings = <&kp RA(RC(W))>;
+            key-positions = <9 8>;
+        };
+
+        NO-Letter-AE {
+            bindings = <&kp RA(RC(Z))>;
+            key-positions = <19 18>;
+        };
+
+        NO-Letter-OE {
+            bindings = <&kp RA(RC(L))>;
+            key-positions = <18 17>;
+        };
     };
 
     behaviors {
